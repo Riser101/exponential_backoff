@@ -1,6 +1,6 @@
 {
     "name": "yousufsyed/exponential_backoff",
-    "description": "php implementation of the exponential backoff algorithm.",
+    "description": "A php implementation of the exponential backoff algorithm.",
     "type": "library",
     "license": "MIT",
     "authors": [
