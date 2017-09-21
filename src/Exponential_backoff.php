@@ -11,7 +11,7 @@ class Exponential_backoff {
      *   
      * @return int wait This is time to sleep 
      */
-	public static function($attempt, $maxAttempts, $maxExpoBackoffInMircroSecs) {
+	public static function get_exponential_backoff_time($attempt, $maxAttempts, $maxExpoBackoffInMircroSecs) {
 
 		if(!is_int($attempt) || !is_int($maxAttempts) || !is_int($maxExpoBackoffInMircroSecs)) {
             return false;
