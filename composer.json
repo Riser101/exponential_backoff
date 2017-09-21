@@ -9,6 +9,9 @@
             "email": "sy.yousuf9106@gmail.com"
         }
     ],
+    "autoload":{
+        "psr-4":{"exponential_backoff_retries\\":"src/"}
+    },
     "minimum-stability": "stable",
     "require": {}
 }
